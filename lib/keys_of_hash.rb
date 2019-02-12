@@ -1,7 +1,7 @@
 class Hash
   def keys_of(*arguments)
     # code goes here
-    array = Hash.keys 
+    array = Hash.keys
     array2 = Hash.values
     i = 0
     result = []
@@ -11,6 +11,6 @@ class Hash
       end
       i += 1
     end
-        
+
   end
 end
